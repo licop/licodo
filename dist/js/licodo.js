@@ -1,0 +1,1 @@
+var licodo=function(){var o=function(o){licodo.shell.initModule(o)};return{initModule:o}}();window.onload=function(){licodo.initModule($("#licodo")[0])};

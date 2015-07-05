@@ -1,0 +1,69 @@
+/*
+Error: Undefined variable: "$borderColor".
+        on line 113 of src/sass/licodo.mobile.scss
+
+108:     background: #fff;
+109: }
+110: .licodo-overlay-delete {
+111:   right: 5px;
+112:   top: 5px;
+113:   background: $borderColor;
+114:   border-radius: 100%;
+115:   height: 20px;
+116:   width: 20px; 
+117:   text-align: center;
+118:   color: $lightFont;
+
+Backtrace:
+src/sass/licodo.mobile.scss:113
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/script/tree/node.rb:50:in `perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:430:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/tree/root_node.rb:20:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/engine.rb:278:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/exec/sass_scss.rb:364:in `watch_or_update'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/exec/base.rb:52:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/lib/sass/exec/base.rb:19:in `parse!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.15/bin/sass:13:in `<top (required)>'
+/usr/bin/sass:23:in `load'
+/usr/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$borderColor\".\A         on line 113 of src/sass/licodo.mobile.scss\A \A 108:     background: #fff;\A 109: }\A 110: .licodo-overlay-delete {\A 111:   right: 5px;\A 112:   top: 5px;\A 113:   background: $borderColor;\A 114:   border-radius: 100%;\A 115:   height: 20px;\A 116:   width: 20px; \A 117:   text-align: center;\A 118:   color: $lightFont;"; }

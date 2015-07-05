@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/*
+ *  licodo.text.css
+ *  text module for Licodo
+*/
+.licodo-text-head,
+.licodo-text-title, .licodo-text-icon,
+.licodo-text-time, .licodo-text-editor,
+.licodo-text-inputTitle, .licodo-text-inputTime,
+.licodo-text-area, .licodo-text-content {
+  position: absolute;
+  font-family: "Microsoft YaHei",微软雅黑,华文黑体,STHei,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px; }
+
+.licodo-text-head {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 46px;
+  color: #fffcf6;
+  background: #615652;
+  border-bottom: 1px solid #e4dad1; }
+  .licodo-text-head .licodo-text-title {
+    font-size: 18px;
+    top: 15px;
+    bottom: 0px;
+    left: 20px;
+    right: 120px; }
+  .licodo-text-head .licodo-text-icon {
+    top: 10px;
+    right: 10px; }
+  .licodo-text-head li {
+    float: left;
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    cursor: pointer; }
+  .licodo-text-head #licodo-text-true {
+    background: url(../../img/true.png); }
+  .licodo-text-head #licodo-text-edit {
+    background: url(../../img/edit.png); }
+
+.licodo-text-time {
+  top: 46px;
+  left: 0px;
+  right: 0px;
+  padding: 10px  0  0 20px;
+  height: 40px;
+  color: #635752;
+  background: #fbf2e8; }
+
+.licodo-text-editor {
+  top: 86px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px; }
+
+.licodo-text-content {
+  top: 0;
+  left: 20px;
+  right: 0px;
+  bottom: 0px;
+  padding-top: 10px;
+  color: #615652;
+  font-size: 16px; }
+
+/**subhtml**/
+.licodo-text-inputTitle {
+  font-size: 18px;
+  border: none;
+  top: -15px;
+  height: 44px;
+  width: 100%;
+  color: #fffcf6;
+  background: #615652; }
+
+.licodo-text-confirm {
+  background: #ce0619;
+  margin-left: 10px;
+  color: #fff;
+  border: 1px solid #80706a; }
+
+.licodo-text-cancel {
+  background: #fff;
+  margin-left: 10px;
+  border: 1px solid #80706a; }
+
+.licodo-text-inputTime {
+  font-size: 16px;
+  border: none;
+  top: 0px;
+  height: 38px;
+  width: 65%;
+  color: #635752;
+  background: #fbf2e8; }
+
+.licodo-text-area {
+  border: none;
+  color: #615652;
+  background: #fffcf6;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 3%;
+  width: 97%;
+  height: 100%; }

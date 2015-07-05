@@ -1,0 +1,61 @@
+/*
+ * licodo.css
+ * Roo namespace styles
+*/
+/**Begin reset**/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+ol, li, dl {
+  list-style-type: none;
+  list-style-position: inside; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 10px; }
+
+img {
+  border: 0; }
+
+/**End reset**/
+/**Begin standard selectors**/
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #777;
+  color: #333; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+div, input, button, select, textarea {
+  outline: none; }
+
+.btn {
+  width: 50px;
+  height: 26px;
+  border-radius: 4px;
+  text-align: center;
+  border: 0px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  border: #eee 1px solid; }
+
+/**End standard selectors**/
+/**Begin licodo namespace selectors**/
+#licodo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  background: url(../../img/licodo_bg.jpg); }

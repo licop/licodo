@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/*
+ * licodo.shell.css
+ *
+*/
+.licodo-shell-head, .licodo-shell-contain, .licodo-shell-left,
+.licodo-shell-right, .licodo-shell-classify,
+.licodo-shell-task, .licodo-shell-text, .licodo-shell-info {
+  position: absolute; }
+
+/***head***/
+.licodo-shell-head {
+  top: 0;
+  width: 100%;
+  height: 48px;
+  background: #25262a;
+  -webkit-box-shadow: 1px 1px 5px #666;
+  -moz-box-shadow: 1px 1px 5px #666;
+  box-shadow: 1px 1px 5px #666; }
+  .licodo-shell-head .licodo-shell-logo {
+    position: relative;
+    top: 18px;
+    left: 10px;
+    width: 100px;
+    height: 23px;
+    background: url(../../img/logo.png); }
+  .licodo-shell-head .licodo-shell-links {
+    position: relative;
+    top: -12px;
+    margin-right: 5%;
+    float: right;
+    width: 142px;
+    height: 32px;
+    background: url(../../img/link_sprite.png) no-repeat;
+    overflow: hidden; }
+    .licodo-shell-head .licodo-shell-links li {
+      border-radius: 100%;
+      position: absolute;
+      top: 0; }
+      .licodo-shell-head .licodo-shell-links li a {
+        height: 32px;
+        width: 32px;
+        display: block; }
+
+/*使用循环添加动画效果*/
+#link-item1 {
+  left: 0px; }
+  #link-item1:hover {
+    background: transparent url(../../img/link_sprite.png) no-repeat;
+    -webkit-animation: link_bg1 300ms ease 0 both;
+    -moz-animation: link_bg1 300ms ease 0 both;
+    -o-animation: link_bg1 300ms ease 0 both;
+    animation: link_bg1 300ms ease 0 both; }
+
+#link-item2 {
+  left: 55px; }
+  #link-item2:hover {
+    background: transparent url(../../img/link_sprite.png) no-repeat;
+    -webkit-animation: link_bg2 300ms ease 0 both;
+    -moz-animation: link_bg2 300ms ease 0 both;
+    -o-animation: link_bg2 300ms ease 0 both;
+    animation: link_bg2 300ms ease 0 both; }
+
+#link-item3 {
+  left: 110px; }
+  #link-item3:hover {
+    background: transparent url(../../img/link_sprite.png) no-repeat;
+    -webkit-animation: link_bg3 300ms ease 0 both;
+    -moz-animation: link_bg3 300ms ease 0 both;
+    -o-animation: link_bg3 300ms ease 0 both;
+    animation: link_bg3 300ms ease 0 both; }
+
+/*定义动画*/
+@-webkit-keyframes link_bg1 {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 0 -32px; } }
+@-moz-keyframes link_bg1 {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 0 -32px; } }
+@-o-keyframes link_bg1 {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 0 -32px; } }
+@-ms-keyframes link_bg1 {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 0 -32px; } }
+@keyframes link_bg1 {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 0 -32px; } }
+@-webkit-keyframes link_bg2 {
+  0% {
+    background-position: -55px 0; }
+  100% {
+    background-position: -55px -32px; } }
+@-moz-keyframes link_bg2 {
+  0% {
+    background-position: -55px 0; }
+  100% {
+    background-position: -55px -32px; } }
+@-o-keyframes link_bg2 {
+  0% {
+    background-position: -55px 0; }
+  100% {
+    background-position: -55px -32px; } }
+@-ms-keyframes link_bg2 {
+  0% {
+    background-position: -55px 0; }
+  100% {
+    background-position: -55px -32px; } }
+@keyframes link_bg2 {
+  0% {
+    background-position: -55px 0; }
+  100% {
+    background-position: -55px -32px; } }
+@-webkit-keyframes link_bg3 {
+  0% {
+    background-position: -110px 0; }
+  100% {
+    background-position: -110px -32px; } }
+@-moz-keyframes link_bg3 {
+  0% {
+    background-position: -110px 0; }
+  100% {
+    background-position: -110px -32px; } }
+@-o-keyframes link_bg3 {
+  0% {
+    background-position: -110px 0; }
+  100% {
+    background-position: -110px -32px; } }
+@-ms-keyframes link_bg3 {
+  0% {
+    background-position: -110px 0; }
+  100% {
+    background-position: -110px -32px; } }
+@keyframes link_bg3 {
+  0% {
+    background-position: -110px 0; }
+  100% {
+    background-position: -110px -32px; } }
+/***module***/
+.licodo-shell-contain {
+  top: 48px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px; }
+  .licodo-shell-contain .licodo-shell-classify {
+    border: 2px solid #e4dad1;
+    background: #fffcf6;
+    -webkit-box-shadow: 1px 1px 5px #666;
+    -moz-box-shadow: 1px 1px 5px #666;
+    box-shadow: 1px 1px 5px #666;
+    top: 2%;
+    bottom: 2%;
+    left: 1%;
+    width: 240px; }
+  .licodo-shell-contain .licodo-shell-task {
+    border: 2px solid #e4dad1;
+    background: #fffcf6;
+    -webkit-box-shadow: 1px 1px 5px #666;
+    -moz-box-shadow: 1px 1px 5px #666;
+    box-shadow: 1px 1px 5px #666;
+    top: 2%;
+    bottom: 2%;
+    left: 270px;
+    width: 280px; }
+  .licodo-shell-contain .licodo-shell-text {
+    border: 2px solid #e4dad1;
+    background: #fffcf6;
+    -webkit-box-shadow: 1px 1px 5px #666;
+    -moz-box-shadow: 1px 1px 5px #666;
+    box-shadow: 1px 1px 5px #666;
+    left: 580px;
+    right: 3%;
+    top: 8%;
+    height: 84%; }
+
+.licodo-shell-info {
+  top: 0px;
+  left: 50%;
+  height: 40px;
+  width: 160px;
+  margin-left: -80px;
+  background: rgba(0, 0, 0, 0.5);
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 15px;
+  opacity: 0;
+  filter: alpha(opacity=0); }
+
+.licodo-mobile {
+  display: none; }
