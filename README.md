@@ -7,6 +7,8 @@
 +  [任务要求](https://github.com/baidu-ife/ife/tree/master/task/task0004)
 +  [在线演示](http://news.upc.edu.cn/zt/licodo/)
 +  [总结笔记](https://github.com/licop/feNote)
++  手机可以扫码
+![erweima](img/erweima.png)
 
 ###技术
 
